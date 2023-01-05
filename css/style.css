@@ -111,3 +111,37 @@
     border: none;
     border-bottom: 1px solid #757575;
 }
+
+/* donate plan  */
+
+.donate-plan {
+    text-align: center;
+}
+
+.donate-plan-title{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.donate-plan-description{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.donate-plan-info {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.donate-plan-info .flex-item {
+    background-color: #ff595913;
+    padding: 70px 27px;
+    border-radius: 6px;
+    text-align: left;
+    box-shadow: 5px 5px 2px white;
+}
+
+.donate-plan-info .flex-item h2 {
+    margin: 19px 0;
+}
