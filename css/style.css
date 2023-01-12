@@ -158,6 +158,9 @@
     align-items: center;
     margin-bottom: 100px;
 }
+.contribute .flex-item {
+    flex: 1;
+}
 .contribute-section img {
     border-radius: 6px;
 }
@@ -178,7 +181,6 @@
 /* update styles */
 
 .update {
-    margin: 150px;
     margin: 150px auto;
     text-align: center;
     max-width: 700px;
@@ -230,4 +232,86 @@ footer h1 {
 
 footer .be {
     color: white;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        margin: 50px 10px;
+    }
+    .contribute {
+        margin: 50px 10px;
+    }
+    .contribute .contribute-section-1 {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .contribute-section .contribute-method {
+        padding-right: 0;
+    }
+    .contribute-section .contribute-method2 {
+        padding-left: 0;
+    }
+    .contribute-section img {
+        width: 100%;
+    }
+    .donate-plan-info, .contribute-section-2 {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 0;
+    }
+    .subscribe input {
+        margin-bottom: 15px;
+    }
+    .amount-section {
+        flex-wrap: wrap;
+    }
+    .amount-section {
+        justify-content: space-around;
+    }
+    .banner {
+        background-image: none;
+        background-color: #757575a5;
+    }
+    .banner-content {
+        margin: 0 10px;
+        padding: 100px 0;
+    }
+
+    footer {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .donate-plan-info, .contribute-section-2 {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0 0;
+    }
+    main {
+        margin: 50px 10px;
+    }
+    .contribute {
+        margin: 50px 10px;
+    }
+    .contribute .contribute-section-1 {
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+    .contribute-section .contribute-method {
+        padding-right: 0;
+    }
+    .contribute-section .contribute-method2 {
+        padding-left: 0;
+    }
+    .contribute-section img {
+        width: 100%;
+    }
+    .banner-description {
+        padding: 0 20px;
+    }
 }
